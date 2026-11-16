@@ -16,8 +16,11 @@ body {
 
 .kartu-profil img {
     width: 150px
+    height: 150px; /* Menjaga tinggi gambar agae tetap seimbang */
+    object-fit: cover; /* Mencegah gambar terdistorsi/gepeng jika rasionya bukan 1:1 */
     border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
 }
+    
   
     
   
