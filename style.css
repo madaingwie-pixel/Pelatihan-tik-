@@ -1,6 +1,5 @@
-
 body {
-    background-color: #ff6347;
+    background-color: #5c100d;
     font-family: Arial, sans-serif;
     color: rgb(106, 90, 205);
     margin: 0;
@@ -15,7 +14,9 @@ body {
     background-color: white;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+
+    /* Shadow luar kotak */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .kartu-profil img {
@@ -23,17 +24,18 @@ body {
     height: 130px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #800000; 
+    border: 4px solid #800000;
 }
 
 .kartu-profil h1 {
     font-size: 24px;
-    color: #ee82ee;
+    color: #800000;
 }
 
 .kartu-profil p {
     font-size: 15px;
     line-height: 1.6;
+    color: #ee82ee;
 }
 
 .kartu-profil a {
@@ -42,14 +44,16 @@ body {
 }
 
 .kartu-profil button {
-    background-color: #ee82ee;
-    color: white;
-    border: none;
+    background-color: white;
+    color: black;
+    border: 2px solid #ff0000;
     padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .kartu-profil button:hover {
-    background-color: purple;
+    background-color: #ff0000;
+    color: white;
 }
