@@ -1,22 +1,55 @@
+
 body {
-    background-color: #ff6347; /* Warna oranye pastel */
+    background-color: #ff6347;
     font-family: Arial, sans-serif;
-    color: #ee82ee; /* Warna teks ungu pastel */
+    color: #ee82ee;
+    margin: 0;
+    padding: 0;
 }
 
 .kartu-profil {
-    width: 300px;
+    width: 350px;
+    max-width: calc(100% - 70px);
     margin: 50px auto;
-    padding: 20px;
+    padding: 25px;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
 }
 
 .kartu-profil img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ee82ee;
+}
+
+.kartu-profil h1 {
+    font-size: 24px;
+    color: #ee82ee;
+}
+
+.kartu-profil p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.kartu-profil a {
+    color: purple;
+    text-decoration: none;
+}
+
+.kartu-profil button {
+    background-color: #ee82ee;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.kartu-profil button:hover {
+    background-color: purple;
 }
