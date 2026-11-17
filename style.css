@@ -23,7 +23,7 @@ body {
     height: 130px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #ee82ee;
+    border: 4px solid #800000; 
 }
 
 .kartu-profil h1 {
